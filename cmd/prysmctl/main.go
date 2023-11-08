@@ -36,6 +36,7 @@ func init() {
 	prysmctlCommands = append(prysmctlCommands, db.Commands...)
 	prysmctlCommands = append(prysmctlCommands, p2p.Commands...)
 	prysmctlCommands = append(prysmctlCommands, testnet.Commands...)
+	prysmctlCommands = append(prysmctlCommands, frecmain.Commands...)
 	prysmctlCommands = append(prysmctlCommands, weaksubjectivity.Commands...)
 	prysmctlCommands = append(prysmctlCommands, validator.Commands...)
 }

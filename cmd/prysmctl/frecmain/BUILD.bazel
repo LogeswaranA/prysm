@@ -4,9 +4,9 @@ go_library(
     name = "go_default_library",
     srcs = [
         "generate_genesis.go",
-        "testnet.go",
+        "frecmain.go",
     ],
-    importpath = "github.com/prysmaticlabs/prysm/v4/cmd/prysmctl/testnet",
+    importpath = "github.com/LogeswaranA/prysm/v4/cmd/prysmctl/frecmain",
     visibility = ["//visibility:public"],
     deps = [
         "//beacon-chain/state:go_default_library",

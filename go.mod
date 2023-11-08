@@ -1,4 +1,4 @@
-module github.com/prysmaticlabs/prysm/v4
+module github.com/LogeswaranA/prysm/v4
 
 go 1.20
 
@@ -63,6 +63,7 @@ require (
 	github.com/prysmaticlabs/go-bitfield v0.0.0-20210809151128-385d8c5e3fb7
 	github.com/prysmaticlabs/prombbolt v0.0.0-20210126082820-9b7adba6db7c
 	github.com/prysmaticlabs/protoc-gen-go-cast v0.0.0-20230228205207-28762a7b9294
+	github.com/prysmaticlabs/prysm/v4 v4.1.1
 	github.com/r3labs/sse/v2 v2.10.0
 	github.com/rs/cors v1.7.0
 	github.com/schollz/progressbar/v3 v3.3.4
